@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .main {
+    padding-bottom: 96px;
+    padding-top: 96px;
+    }
+
+    .main-list {
+        flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 64px;
+            column-gap: 24px;
+            justify-content: center;
+            text-align: center;
+    }
+
+    .main> .container {
+        width: 768px;
+    }
+
+    .customers>.container {
+            width: 582px;
+    }
+    
+    .customers-item {
+            width: calc((100% - 48px) / 3);
+    }
+    
+    .customers-list {
+            column-gap: 24px;
+    }
+}

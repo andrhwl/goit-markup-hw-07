@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .main {
+            padding-bottom: 120px;
+            padding-top: 120px;
+    }
+
+ .main>.container {
+     width: 1200px;
+ }
+
+        .customers>.container {
+            width: 1158px;
+        }
+    
+    
+        .customers-item {
+            width: calc((100% - 120px) / 6);
+        }
+    
+        .customers-list {
+            gap: 24px;
+    
+        }
+}
