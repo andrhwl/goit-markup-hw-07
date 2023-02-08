@@ -1,7 +1,65 @@
+
 @media screen and (min-width: 480px) {
 
     .container {
         max-width: 428px;
+        
+     }
 
-    }
+
+
+/*---------------NAV HEADER------------------------------*/
+
+.header {
+    max-height: 70px;
 }
+
+
+/*----------------HERO---------------------------------------*/
+
+.hero {
+   padding:112px 55px 112px 55px;
+}
+
+.hero .title {
+width: 318px;
+font-size: 36px;
+max-width: 428px;
+}
+/* -----------MOB-MENU------------------------ */
+
+
+
+.mob-menu-tel {
+    font-size: 36px;
+    
+}
+
+.menu-soc-list {
+    gap: 56px;
+}
+
+
+
+/* --------------SECTION--------------- */
+
+
+
+/*-------------FOOTER--------------------------------------------*/
+
+
+    .footer-input {
+        /* width: 264px; */
+        width: 396px;
+    }
+
+
+/*------------MODAL-------------------------------------------------*/
+
+
+.modal {
+    max-width: 392px;
+}
+
+}
+
